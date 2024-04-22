@@ -3,7 +3,7 @@ const scriptRel = function detectScriptRel() {
   return relList && relList.supports && relList.supports("modulepreload") ? "modulepreload" : "preload";
 }();
 const seen = {};
-const base = "/plugin/revival/spa/";
+const base = "/";
 const __vitePreload = function preload(baseModule, deps) {
   if (!deps || deps.length === 0) {
     return baseModule();
@@ -9558,30 +9558,30 @@ function extractChangingRecords(to, from) {
 const routes = [
   {
     path: "/",
-    component: () => __vitePreload(() => import("./MainLayout.d4672275.js"), true ? ["assets/MainLayout.d4672275.js","assets/MainLayout.35de5668.css","assets/QBtn.0ff5b315.js","assets/use-dark.9ebbe6db.js","assets/use-timeout.e6247861.js","assets/QSeparator.6adca27a.js","assets/midataService.451e0f3a.js","assets/index.33e8d543.js","assets/store.f20aec9e.js"] : void 0),
+    component: () => __vitePreload(() => import("./MainLayout.b6d70dcb.js"), true ? ["assets/MainLayout.b6d70dcb.js","assets/MainLayout.35de5668.css","assets/QBtn.cf6b9e42.js","assets/use-dark.e84386eb.js","assets/use-timeout.0706f59c.js","assets/QSeparator.805ab0b9.js","assets/midataService.451e0f3a.js","assets/index.33e8d543.js","assets/store.4259410a.js"] : void 0),
     children: [
-      { path: "", component: () => __vitePreload(() => import("./InfoPage.33acdfe7.js"), true ? ["assets/InfoPage.33acdfe7.js","assets/InfoPage.b5d13654.css","assets/QCardActions.111b08d6.js","assets/QBtn.0ff5b315.js","assets/use-dark.9ebbe6db.js","assets/use-timeout.e6247861.js","assets/midataService.451e0f3a.js","assets/index.33e8d543.js"] : void 0) },
+      { path: "", component: () => __vitePreload(() => import("./InfoPage.eb22adb8.js"), true ? ["assets/InfoPage.eb22adb8.js","assets/InfoPage.b5d13654.css","assets/QCardActions.5945d52d.js","assets/QBtn.cf6b9e42.js","assets/use-dark.e84386eb.js","assets/use-timeout.0706f59c.js","assets/midataService.451e0f3a.js","assets/index.33e8d543.js"] : void 0) },
       {
         path: "/InfoPage",
-        component: () => __vitePreload(() => import("./InfoPage.33acdfe7.js"), true ? ["assets/InfoPage.33acdfe7.js","assets/InfoPage.b5d13654.css","assets/QCardActions.111b08d6.js","assets/QBtn.0ff5b315.js","assets/use-dark.9ebbe6db.js","assets/use-timeout.e6247861.js","assets/midataService.451e0f3a.js","assets/index.33e8d543.js"] : void 0)
+        component: () => __vitePreload(() => import("./InfoPage.eb22adb8.js"), true ? ["assets/InfoPage.eb22adb8.js","assets/InfoPage.b5d13654.css","assets/QCardActions.5945d52d.js","assets/QBtn.cf6b9e42.js","assets/use-dark.e84386eb.js","assets/use-timeout.0706f59c.js","assets/midataService.451e0f3a.js","assets/index.33e8d543.js"] : void 0)
       },
       {
         path: "/questionnaire",
-        component: () => __vitePreload(() => import("./questionnairePage.04ef0f53.js"), true ? ["assets/questionnairePage.04ef0f53.js","assets/questionnairePage.7d85517c.css","assets/QBtn.0ff5b315.js","assets/use-dark.9ebbe6db.js","assets/QCardActions.111b08d6.js","assets/LoginCard.5ea4f3e6.js","assets/LoginCard.728ed463.css","assets/QSeparator.6adca27a.js","assets/midataService.451e0f3a.js","assets/index.33e8d543.js","assets/store.f20aec9e.js","assets/vue-i18n.5fc565e5.js"] : void 0)
+        component: () => __vitePreload(() => import("./questionnairePage.208ce749.js"), true ? ["assets/questionnairePage.208ce749.js","assets/questionnairePage.7d85517c.css","assets/QBtn.cf6b9e42.js","assets/use-dark.e84386eb.js","assets/QCardActions.5945d52d.js","assets/LoginCard.21dc16b2.js","assets/LoginCard.728ed463.css","assets/QSeparator.805ab0b9.js","assets/midataService.451e0f3a.js","assets/index.33e8d543.js","assets/store.4259410a.js","assets/vue-i18n.b317b62a.js"] : void 0)
       },
       {
         path: "/welcome",
-        component: () => __vitePreload(() => import("./WelcomePage.5cdff084.js"), true ? ["assets/WelcomePage.5cdff084.js","assets/QBtn.0ff5b315.js","assets/QCardActions.111b08d6.js","assets/use-dark.9ebbe6db.js","assets/LoginCard.5ea4f3e6.js","assets/LoginCard.728ed463.css","assets/QSeparator.6adca27a.js","assets/midataService.451e0f3a.js","assets/index.33e8d543.js","assets/store.f20aec9e.js"] : void 0)
+        component: () => __vitePreload(() => import("./WelcomePage.7fdfebfa.js"), true ? ["assets/WelcomePage.7fdfebfa.js","assets/QBtn.cf6b9e42.js","assets/QCardActions.5945d52d.js","assets/use-dark.e84386eb.js","assets/LoginCard.21dc16b2.js","assets/LoginCard.728ed463.css","assets/QSeparator.805ab0b9.js","assets/midataService.451e0f3a.js","assets/index.33e8d543.js","assets/store.4259410a.js"] : void 0)
       },
       {
         path: "/complete",
-        component: () => __vitePreload(() => import("./QuestionnaireCompletePage.9a979b17.js"), true ? ["assets/QuestionnaireCompletePage.9a979b17.js","assets/QBtn.0ff5b315.js","assets/QCardActions.111b08d6.js","assets/use-dark.9ebbe6db.js","assets/midataService.451e0f3a.js","assets/index.33e8d543.js"] : void 0)
+        component: () => __vitePreload(() => import("./QuestionnaireCompletePage.8d2f8f89.js"), true ? ["assets/QuestionnaireCompletePage.8d2f8f89.js","assets/QBtn.cf6b9e42.js","assets/QCardActions.5945d52d.js","assets/use-dark.e84386eb.js","assets/midataService.451e0f3a.js","assets/index.33e8d543.js"] : void 0)
       }
     ]
   },
   {
     path: "/:catchAll(.*)*",
-    component: () => __vitePreload(() => import("./ErrorNotFound.60899933.js"), true ? ["assets/ErrorNotFound.60899933.js","assets/QBtn.0ff5b315.js"] : void 0)
+    component: () => __vitePreload(() => import("./ErrorNotFound.2d10a71c.js"), true ? ["assets/ErrorNotFound.2d10a71c.js","assets/QBtn.cf6b9e42.js"] : void 0)
   }
 ];
 var createRouter = route(function() {
@@ -9589,7 +9589,7 @@ var createRouter = route(function() {
   const Router = createRouter$1({
     scrollBehavior: () => ({ left: 0, top: 0 }),
     routes,
-    history: createHistory("/plugin/revival/spa/")
+    history: createHistory("/")
   });
   return Router;
 });
@@ -9611,7 +9611,7 @@ async function createQuasarApp(createAppFn, quasarUserOptions2) {
   };
 }
 var quasarUserOptions = { config: {} };
-const publicPath = `/plugin/revival/spa/`;
+const publicPath = `/`;
 async function start({
   app: app2,
   router,
@@ -9680,7 +9680,7 @@ createQuasarApp(createApp, quasarUserOptions).then((app2) => {
   ];
   return Promise[method]([
     __vitePreload(() => import("./midataService.451e0f3a.js"), true ? ["assets/midataService.451e0f3a.js","assets/index.33e8d543.js"] : void 0),
-    __vitePreload(() => import("./i18n.bdcc5f98.js"), true ? ["assets/i18n.bdcc5f98.js","assets/vue-i18n.5fc565e5.js","assets/store.f20aec9e.js","assets/index.33e8d543.js"] : void 0)
+    __vitePreload(() => import("./i18n.52eec705.js"), true ? ["assets/i18n.52eec705.js","assets/vue-i18n.b317b62a.js","assets/store.4259410a.js","assets/index.33e8d543.js"] : void 0)
   ]).then((bootFiles) => {
     const boot2 = mapFn(bootFiles).filter((entry) => typeof entry === "function");
     start(app2, boot2);
