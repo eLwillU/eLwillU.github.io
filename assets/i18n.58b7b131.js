@@ -1,6 +1,6 @@
-import { b as boot } from "./index.0d20794b.js";
-import { c as createI18n } from "./vue-i18n.dc74abf1.js";
-import { u as userStore } from "./store.bd0f3abd.js";
+import { b as boot } from "./index.997e627f.js";
+import { c as createI18n } from "./vue-i18n.34e5f4f9.js";
+import { u as userStore } from "./store.b470c708.js";
 import "./index.33e8d543.js";
 const welcome$1 = "Willkommen";
 const infoWelcome$1 = "Willkommen bei REVIVAL";

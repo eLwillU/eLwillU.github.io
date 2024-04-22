@@ -9558,30 +9558,30 @@ function extractChangingRecords(to, from) {
 const routes = [
   {
     path: "/",
-    component: () => __vitePreload(() => import("./MainLayout.18d68dd8.js"), true ? ["assets/MainLayout.18d68dd8.js","assets/MainLayout.35de5668.css","assets/QBtn.fcc7cdec.js","assets/use-dark.c9c13bf2.js","assets/use-timeout.72c8f27e.js","assets/QSeparator.0e5c2ebb.js","assets/midataService.c7ddae51.js","assets/index.33e8d543.js","assets/store.bd0f3abd.js"] : void 0),
+    component: () => __vitePreload(() => import("./MainLayout.79fb4544.js"), true ? ["assets/MainLayout.79fb4544.js","assets/MainLayout.35de5668.css","assets/QBtn.c08d2f7e.js","assets/use-dark.326a282a.js","assets/use-timeout.eccd1313.js","assets/QSeparator.fa5a35a9.js","assets/midataService.45988299.js","assets/index.33e8d543.js","assets/store.b470c708.js"] : void 0),
     children: [
-      { path: "", component: () => __vitePreload(() => import("./InfoPage.e39c57eb.js"), true ? ["assets/InfoPage.e39c57eb.js","assets/InfoPage.b5d13654.css","assets/QBtn.fcc7cdec.js","assets/use-timeout.72c8f27e.js","assets/QCardActions.22f07249.js","assets/use-dark.c9c13bf2.js","assets/midataService.c7ddae51.js","assets/index.33e8d543.js"] : void 0) },
+      { path: "", component: () => __vitePreload(() => import("./InfoPage.a00a9240.js"), true ? ["assets/InfoPage.a00a9240.js","assets/InfoPage.b5d13654.css","assets/QBtn.c08d2f7e.js","assets/use-timeout.eccd1313.js","assets/QCardActions.fe4d556f.js","assets/use-dark.326a282a.js","assets/midataService.45988299.js","assets/index.33e8d543.js"] : void 0) },
       {
         path: "/InfoPage",
-        component: () => __vitePreload(() => import("./InfoPage.e39c57eb.js"), true ? ["assets/InfoPage.e39c57eb.js","assets/InfoPage.b5d13654.css","assets/QBtn.fcc7cdec.js","assets/use-timeout.72c8f27e.js","assets/QCardActions.22f07249.js","assets/use-dark.c9c13bf2.js","assets/midataService.c7ddae51.js","assets/index.33e8d543.js"] : void 0)
+        component: () => __vitePreload(() => import("./InfoPage.a00a9240.js"), true ? ["assets/InfoPage.a00a9240.js","assets/InfoPage.b5d13654.css","assets/QBtn.c08d2f7e.js","assets/use-timeout.eccd1313.js","assets/QCardActions.fe4d556f.js","assets/use-dark.326a282a.js","assets/midataService.45988299.js","assets/index.33e8d543.js"] : void 0)
       },
       {
         path: "/questionnaire",
-        component: () => __vitePreload(() => import("./questionnairePage.73ad39bd.js"), true ? ["assets/questionnairePage.73ad39bd.js","assets/questionnairePage.7d85517c.css","assets/QBtn.fcc7cdec.js","assets/use-dark.c9c13bf2.js","assets/QCardActions.22f07249.js","assets/LoginCard.17a5f822.js","assets/LoginCard.728ed463.css","assets/QSeparator.0e5c2ebb.js","assets/midataService.c7ddae51.js","assets/index.33e8d543.js","assets/store.bd0f3abd.js","assets/vue-i18n.dc74abf1.js"] : void 0)
+        component: () => __vitePreload(() => import("./questionnairePage.6bd23efa.js"), true ? ["assets/questionnairePage.6bd23efa.js","assets/questionnairePage.7d85517c.css","assets/QBtn.c08d2f7e.js","assets/use-dark.326a282a.js","assets/QCardActions.fe4d556f.js","assets/LoginCard.53e7354e.js","assets/LoginCard.728ed463.css","assets/QSeparator.fa5a35a9.js","assets/midataService.45988299.js","assets/index.33e8d543.js","assets/store.b470c708.js","assets/vue-i18n.34e5f4f9.js"] : void 0)
       },
       {
         path: "/welcome",
-        component: () => __vitePreload(() => import("./WelcomePage.5919b58a.js"), true ? ["assets/WelcomePage.5919b58a.js","assets/QBtn.fcc7cdec.js","assets/QCardActions.22f07249.js","assets/use-dark.c9c13bf2.js","assets/LoginCard.17a5f822.js","assets/LoginCard.728ed463.css","assets/QSeparator.0e5c2ebb.js","assets/midataService.c7ddae51.js","assets/index.33e8d543.js","assets/store.bd0f3abd.js"] : void 0)
+        component: () => __vitePreload(() => import("./WelcomePage.b2a77fac.js"), true ? ["assets/WelcomePage.b2a77fac.js","assets/QBtn.c08d2f7e.js","assets/QCardActions.fe4d556f.js","assets/use-dark.326a282a.js","assets/LoginCard.53e7354e.js","assets/LoginCard.728ed463.css","assets/QSeparator.fa5a35a9.js","assets/midataService.45988299.js","assets/index.33e8d543.js","assets/store.b470c708.js"] : void 0)
       },
       {
         path: "/complete",
-        component: () => __vitePreload(() => import("./QuestionnaireCompletePage.4c93ae25.js"), true ? ["assets/QuestionnaireCompletePage.4c93ae25.js","assets/QBtn.fcc7cdec.js","assets/QCardActions.22f07249.js","assets/use-dark.c9c13bf2.js","assets/midataService.c7ddae51.js","assets/index.33e8d543.js"] : void 0)
+        component: () => __vitePreload(() => import("./QuestionnaireCompletePage.94c8a8fb.js"), true ? ["assets/QuestionnaireCompletePage.94c8a8fb.js","assets/QBtn.c08d2f7e.js","assets/QCardActions.fe4d556f.js","assets/use-dark.326a282a.js","assets/midataService.45988299.js","assets/index.33e8d543.js"] : void 0)
       }
     ]
   },
   {
     path: "/:catchAll(.*)*",
-    component: () => __vitePreload(() => import("./ErrorNotFound.6948c13b.js"), true ? ["assets/ErrorNotFound.6948c13b.js","assets/QBtn.fcc7cdec.js"] : void 0)
+    component: () => __vitePreload(() => import("./ErrorNotFound.e16f41f6.js"), true ? ["assets/ErrorNotFound.e16f41f6.js","assets/QBtn.c08d2f7e.js"] : void 0)
   }
 ];
 var createRouter = route(function() {
@@ -9679,8 +9679,8 @@ createQuasarApp(createApp, quasarUserOptions).then((app2) => {
     (bootFiles) => bootFiles.map((entry) => entry.default)
   ];
   return Promise[method]([
-    __vitePreload(() => import("./midataService.c7ddae51.js"), true ? ["assets/midataService.c7ddae51.js","assets/index.33e8d543.js"] : void 0),
-    __vitePreload(() => import("./i18n.19dc1ec1.js"), true ? ["assets/i18n.19dc1ec1.js","assets/vue-i18n.dc74abf1.js","assets/store.bd0f3abd.js","assets/index.33e8d543.js"] : void 0)
+    __vitePreload(() => import("./midataService.45988299.js"), true ? ["assets/midataService.45988299.js","assets/index.33e8d543.js"] : void 0),
+    __vitePreload(() => import("./i18n.58b7b131.js"), true ? ["assets/i18n.58b7b131.js","assets/vue-i18n.34e5f4f9.js","assets/store.b470c708.js","assets/index.33e8d543.js"] : void 0)
   ]).then((bootFiles) => {
     const boot2 = mapFn(bootFiles).filter((entry) => typeof entry === "function");
     start(app2, boot2);

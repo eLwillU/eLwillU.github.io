@@ -17356,7 +17356,7 @@ class JSOnFhir {
 const fhir = new JSOnFhir(
   "https://test.midata.coop",
   "revival",
-  "https://elwillu.github.io/#/welcome",
+  "https://revival-prems.ch/#/welcome",
   {
     disablePkce: false,
     doesNotNeedAuth: false
