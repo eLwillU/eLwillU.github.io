@@ -1,8 +1,7 @@
-import { c as computed, m as createComponent, r as ref, N as useTimeout, a1 as isRuntimeSsrPreHydration, o as onMounted, h, Z as Transition, n as hSlot, aw as QSpinner, w as watch, ax as vmIsDestroyed, g as getCurrentInstance, ay as _export_sfc, ak as openBlock, al as createBlock, am as withCtx, k as createVNode, az as QCardSection, aA as createBaseVNode, ap as toDisplayString, aB as QCardActions, an as QBtn, aC as QCard, ao as createTextVNode, aD as QDialog, aa as withDirectives } from "./index.38afc488.js";
-import { Q as QPage } from "./QPage.1212f342.js";
-import { C as ClosePopup } from "./ClosePopup.e9781767.js";
+import { c as computed, m as createComponent, r as ref, N as useTimeout, a1 as isRuntimeSsrPreHydration, o as onMounted, h, Z as Transition, n as hSlot, aw as QSpinner, w as watch, ax as vmIsDestroyed, g as getCurrentInstance, ay as _export_sfc, ak as openBlock, al as createBlock, am as withCtx, k as createVNode, az as QCardSection, aA as createBaseVNode, ap as toDisplayString, aB as QCardActions, an as QBtn, aC as QCard, ao as createTextVNode } from "./index.6fa9569b.js";
+import { Q as QPage } from "./QPage.d8f66d8b.js";
 import { f as fhir } from "./midataService.666dd6d8.js";
-import { u as userStore } from "./store.66b8a5fd.js";
+import { u as userStore } from "./store.a2d8c6ec.js";
 const useRatioProps = {
   ratio: [String, Number]
 };
@@ -362,9 +361,8 @@ const _hoisted_4 = { class: "text-subtitle1 text-weight-bold" };
 const _hoisted_5 = { class: "text-subtitle1 text-weight-bold" };
 const _hoisted_6 = { class: "text-subtitle1 text-weight-bold" };
 const _hoisted_7 = { class: "text-subtitle1 text-weight-bold" };
-const _hoisted_8 = { class: "text-subtitle1 text-weight-bold" };
-const _hoisted_9 = { class: "" };
-const _hoisted_10 = /* @__PURE__ */ createBaseVNode("div", { class: "row" }, [
+const _hoisted_8 = { class: "" };
+const _hoisted_9 = /* @__PURE__ */ createBaseVNode("div", { class: "row" }, [
   /* @__PURE__ */ createBaseVNode("div", { class: "q-mx-xl q-py-md text-weight-bold" }, [
     /* @__PURE__ */ createTextVNode(" Karin Kennel: "),
     /* @__PURE__ */ createBaseVNode("br"),
@@ -376,19 +374,18 @@ const _hoisted_10 = /* @__PURE__ */ createBaseVNode("div", { class: "row" }, [
     /* @__PURE__ */ createBaseVNode("a", { href: "mailto:dominic.willi@students.bfh.ch" }, "dominic.willi@students.bfh.ch")
   ])
 ], -1);
-const _hoisted_11 = { class: "text-weight-bold" };
-const _hoisted_12 = {
+const _hoisted_10 = { class: "text-weight-bold" };
+const _hoisted_11 = {
   class: "text-h6",
   id: "heading2"
 };
-const _hoisted_13 = {
+const _hoisted_12 = {
   class: "text-h6",
   id: "heading3"
 };
 const _sfc_main = {
   __name: "InfoPage",
   setup(__props) {
-    const confirm = ref(false);
     return (_ctx, _cache) => {
       return openBlock(), createBlock(QPage, { class: "q-pa-none" }, {
         default: withCtx(() => [
@@ -454,64 +451,16 @@ const _sfc_main = {
                 }),
                 createVNode(QCardSection, null, {
                   default: withCtx(() => [
-                    createVNode(QBtn, {
-                      label: _ctx.$t("completeQuestionnaire"),
-                      color: "primary",
-                      onClick: _cache[1] || (_cache[1] = ($event) => confirm.value = true)
-                    }, null, 8, ["label"]),
-                    createVNode(QDialog, {
-                      modelValue: confirm.value,
-                      "onUpdate:modelValue": _cache[2] || (_cache[2] = ($event) => confirm.value = $event),
-                      persistent: ""
-                    }, {
-                      default: withCtx(() => [
-                        createVNode(QCard, null, {
-                          default: withCtx(() => [
-                            createVNode(QCardSection, { class: "row items-center" }, {
-                              default: withCtx(() => [
-                                createBaseVNode("div", _hoisted_7, toDisplayString(_ctx.$t("confirmEnd")), 1)
-                              ]),
-                              _: 1
-                            }),
-                            createVNode(QCardActions, { align: "right" }, {
-                              default: withCtx(() => [
-                                withDirectives(createVNode(QBtn, {
-                                  flat: "",
-                                  label: _ctx.$t("cancel"),
-                                  color: "primary"
-                                }, null, 8, ["label"]), [
-                                  [ClosePopup]
-                                ]),
-                                withDirectives(createVNode(QBtn, {
-                                  label: _ctx.$t("send"),
-                                  color: "green"
-                                }, null, 8, ["label"]), [
-                                  [ClosePopup]
-                                ])
-                              ]),
-                              _: 1
-                            })
-                          ]),
-                          _: 1
-                        })
-                      ]),
-                      _: 1
-                    }, 8, ["modelValue"])
-                  ]),
-                  _: 1
-                }),
-                createVNode(QCardSection, null, {
-                  default: withCtx(() => [
-                    createBaseVNode("div", _hoisted_8, toDisplayString(_ctx.$t("infoPageMoreTitle")), 1),
-                    createBaseVNode("div", _hoisted_9, toDisplayString(_ctx.$t("infoPageMoreText")), 1),
-                    _hoisted_10
+                    createBaseVNode("div", _hoisted_7, toDisplayString(_ctx.$t("infoPageMoreTitle")), 1),
+                    createBaseVNode("div", _hoisted_8, toDisplayString(_ctx.$t("infoPageMoreText")), 1),
+                    _hoisted_9
                   ]),
                   _: 1
                 }),
                 createVNode(QCardSection, null, {
                   default: withCtx(() => [
                     createBaseVNode("div", null, [
-                      createBaseVNode("div", _hoisted_11, toDisplayString(_ctx.$t("infoPageTogether")), 1),
+                      createBaseVNode("div", _hoisted_10, toDisplayString(_ctx.$t("infoPageTogether")), 1),
                       createBaseVNode("div", null, toDisplayString(_ctx.$t("infoPageGreeting")), 1)
                     ])
                   ]),
@@ -524,7 +473,7 @@ const _sfc_main = {
               default: withCtx(() => [
                 createVNode(QCardSection, null, {
                   default: withCtx(() => [
-                    createBaseVNode("div", _hoisted_12, toDisplayString(_ctx.$t("infoVideo")), 1)
+                    createBaseVNode("div", _hoisted_11, toDisplayString(_ctx.$t("infoVideo")), 1)
                   ]),
                   _: 1
                 }),
@@ -544,7 +493,7 @@ const _sfc_main = {
               default: withCtx(() => [
                 createVNode(QCardSection, null, {
                   default: withCtx(() => [
-                    createBaseVNode("div", _hoisted_13, toDisplayString(_ctx.$t("moreInfo")), 1)
+                    createBaseVNode("div", _hoisted_12, toDisplayString(_ctx.$t("moreInfo")), 1)
                   ]),
                   _: 1
                 }),

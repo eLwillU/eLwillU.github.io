@@ -1,5 +1,5 @@
-import { ak as openBlock, al as createBlock, am as withCtx, k as createVNode, az as QCardSection, aq as QIcon, aA as createBaseVNode, ap as toDisplayString, aB as QCardActions, an as QBtn, as as unref, ao as createTextVNode, aC as QCard } from "./index.38afc488.js";
-import { Q as QPage } from "./QPage.1212f342.js";
+import { ak as openBlock, al as createBlock, am as withCtx, k as createVNode, az as QCardSection, aq as QIcon, aA as createBaseVNode, ap as toDisplayString, aB as QCardActions, an as QBtn, as as unref, ao as createTextVNode, aC as QCard } from "./index.6fa9569b.js";
+import { Q as QPage } from "./QPage.d8f66d8b.js";
 import { f as fhir } from "./midataService.666dd6d8.js";
 const _hoisted_1 = { class: "text-h6" };
 const _hoisted_2 = { class: "text-center" };

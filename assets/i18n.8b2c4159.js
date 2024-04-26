@@ -1,6 +1,6 @@
-import { b as boot } from "./index.38afc488.js";
-import { c as createI18n } from "./vue-i18n.b6d50b7c.js";
-import { u as userStore } from "./store.66b8a5fd.js";
+import { b as boot } from "./index.6fa9569b.js";
+import { c as createI18n } from "./vue-i18n.e6e0f96f.js";
+import { u as userStore } from "./store.a2d8c6ec.js";
 const welcome$1 = "Willkommen";
 const infoWelcome$1 = "Willkommen bei REVIVAL";
 const infoCaption$1 = " Lasst uns zusammen die Krebsbehandlung besser machen \u2013 Ihre Stimme z\xE4hlt!";

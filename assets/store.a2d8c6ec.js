@@ -1,4 +1,4 @@
-import { l as defineStore, r as ref } from "./index.38afc488.js";
+import { l as defineStore, r as ref } from "./index.6fa9569b.js";
 const userStore = defineStore("user", {
   state: () => ({
     locale: ref(navigator.language.split("-")[0]),

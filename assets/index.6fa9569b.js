@@ -9566,30 +9566,30 @@ function extractChangingRecords(to, from) {
 const routes = [
   {
     path: "/",
-    component: () => __vitePreload(() => import("./MainLayout.0a2b1220.js"), true ? ["assets/MainLayout.0a2b1220.js","assets/MainLayout.92b2f6a8.css","assets/ClosePopup.e9781767.js","assets/midataService.666dd6d8.js","assets/store.66b8a5fd.js"] : void 0),
+    component: () => __vitePreload(() => import("./MainLayout.efc39cf2.js"), true ? ["assets/MainLayout.efc39cf2.js","assets/MainLayout.92b2f6a8.css","assets/ClosePopup.93bf990b.js","assets/midataService.666dd6d8.js","assets/store.a2d8c6ec.js"] : void 0),
     children: [
-      { path: "", component: () => __vitePreload(() => import("./InfoPage.6c97bcbc.js"), true ? ["assets/InfoPage.6c97bcbc.js","assets/InfoPage.b5d13654.css","assets/QPage.1212f342.js","assets/ClosePopup.e9781767.js","assets/midataService.666dd6d8.js","assets/store.66b8a5fd.js"] : void 0) },
+      { path: "", component: () => __vitePreload(() => import("./InfoPage.f48e71d3.js"), true ? ["assets/InfoPage.f48e71d3.js","assets/InfoPage.b5d13654.css","assets/QPage.d8f66d8b.js","assets/midataService.666dd6d8.js","assets/store.a2d8c6ec.js"] : void 0) },
       {
         path: "/InfoPage",
-        component: () => __vitePreload(() => import("./InfoPage.6c97bcbc.js"), true ? ["assets/InfoPage.6c97bcbc.js","assets/InfoPage.b5d13654.css","assets/QPage.1212f342.js","assets/ClosePopup.e9781767.js","assets/midataService.666dd6d8.js","assets/store.66b8a5fd.js"] : void 0)
+        component: () => __vitePreload(() => import("./InfoPage.f48e71d3.js"), true ? ["assets/InfoPage.f48e71d3.js","assets/InfoPage.b5d13654.css","assets/QPage.d8f66d8b.js","assets/midataService.666dd6d8.js","assets/store.a2d8c6ec.js"] : void 0)
       },
       {
         path: "/questionnaire",
-        component: () => __vitePreload(() => import("./questionnairePage.c9a01f70.js"), true ? ["assets/questionnairePage.c9a01f70.js","assets/questionnairePage.7d85517c.css","assets/QPage.1212f342.js","assets/ClosePopup.e9781767.js","assets/LoginCard.baa44388.js","assets/LoginCard.728ed463.css","assets/midataService.666dd6d8.js","assets/vue-i18n.b6d50b7c.js","assets/store.66b8a5fd.js"] : void 0)
+        component: () => __vitePreload(() => import("./questionnairePage.2e59fdad.js"), true ? ["assets/questionnairePage.2e59fdad.js","assets/questionnairePage.7d85517c.css","assets/QPage.d8f66d8b.js","assets/ClosePopup.93bf990b.js","assets/LoginCard.c5c041a2.js","assets/LoginCard.728ed463.css","assets/midataService.666dd6d8.js","assets/vue-i18n.e6e0f96f.js","assets/store.a2d8c6ec.js"] : void 0)
       },
       {
         path: "/welcome",
-        component: () => __vitePreload(() => import("./WelcomePage.726c7939.js"), true ? ["assets/WelcomePage.726c7939.js","assets/QPage.1212f342.js","assets/LoginCard.baa44388.js","assets/LoginCard.728ed463.css","assets/midataService.666dd6d8.js","assets/store.66b8a5fd.js"] : void 0)
+        component: () => __vitePreload(() => import("./WelcomePage.3871570d.js"), true ? ["assets/WelcomePage.3871570d.js","assets/QPage.d8f66d8b.js","assets/LoginCard.c5c041a2.js","assets/LoginCard.728ed463.css","assets/midataService.666dd6d8.js","assets/store.a2d8c6ec.js"] : void 0)
       },
       {
         path: "/complete",
-        component: () => __vitePreload(() => import("./QuestionnaireCompletePage.700c998b.js"), true ? ["assets/QuestionnaireCompletePage.700c998b.js","assets/QPage.1212f342.js","assets/midataService.666dd6d8.js"] : void 0)
+        component: () => __vitePreload(() => import("./QuestionnaireCompletePage.31c9e7a6.js"), true ? ["assets/QuestionnaireCompletePage.31c9e7a6.js","assets/QPage.d8f66d8b.js","assets/midataService.666dd6d8.js"] : void 0)
       }
     ]
   },
   {
     path: "/:catchAll(.*)*",
-    component: () => __vitePreload(() => import("./ErrorNotFound.2ff2cc4b.js"), true ? [] : void 0)
+    component: () => __vitePreload(() => import("./ErrorNotFound.b54db166.js"), true ? [] : void 0)
   }
 ];
 var createRouter = route(function() {
@@ -13922,10 +13922,10 @@ createQuasarApp(createApp, quasarUserOptions).then((app2) => {
     __vitePreload(() => import("./midataService.666dd6d8.js").then(function(n) {
       return n.m;
     }), true ? [] : void 0),
-    __vitePreload(() => import("./i18n.60e07f1e.js"), true ? ["assets/i18n.60e07f1e.js","assets/vue-i18n.b6d50b7c.js","assets/store.66b8a5fd.js"] : void 0)
+    __vitePreload(() => import("./i18n.8b2c4159.js"), true ? ["assets/i18n.8b2c4159.js","assets/vue-i18n.e6e0f96f.js","assets/store.a2d8c6ec.js"] : void 0)
   ]).then((bootFiles) => {
     const boot2 = mapFn(bootFiles).filter((entry) => typeof entry === "function");
     start(app2, boot2);
   });
 });
-export { addFocusFn as $, nextTick as A, addEvt as B, onBeforeUnmount as C, cleanEvt as D, listenOpts as E, Fragment as F, portalProxyList as G, client as H, getScrollbarWidth as I, useModelToggleProps as J, useTransitionProps as K, useModelToggleEmits as L, useTick as M, useTimeout as N, useTransition as O, Platform as P, useModelToggle as Q, usePortal as R, addFocusout as S, Text as T, position as U, removeFocusout as V, removeEscapeKey as W, getScrollTarget as X, closePortalMenus as Y, Transition as Z, addEscapeKey as _, onUnmounted as a, childHasFocus as a0, isRuntimeSsrPreHydration as a1, noop$2 as a2, emptyRenderFn as a3, layoutKey as a4, createDirective as a5, leftClick as a6, preventDraggable as a7, stop as a8, useHistory as a9, createBaseVNode as aA, QCardActions as aB, QCard as aC, QDialog as aD, useSizeProps as aE, useSize as aF, createElementBlock as aG, renderList as aH, normalizeClass as aI, QRadio as aJ, watchEffect as aK, pushScopeId as aL, popScopeId as aM, withDirectives as aa, hDir as ab, usePreventScroll as ac, provide as ad, pageContainerKey as ae, getVerticalScrollPosition as af, getHorizontalScrollPosition as ag, reactive as ah, hMergeSlot as ai, resolveComponent as aj, openBlock as ak, createBlock as al, withCtx as am, QBtn as an, createTextVNode as ao, toDisplayString as ap, QIcon as aq, QSeparator as ar, unref as as, createCommentVNode as at, getPortalProxy as au, closePortals as av, QSpinner as aw, vmIsDestroyed as ax, _export_sfc as ay, QCardSection as az, boot as b, computed as c, defineComponent as d, effectScope as e, onBeforeMount as f, getCurrentInstance as g, h, inject as i, isRef as j, createVNode as k, defineStore as l, createComponent as m, hSlot as n, onMounted as o, useRouterLinkProps as p, useDark as q, ref as r, shallowRef as s, useRouterLink as t, useDarkProps as u, isKeyCode as v, watch as w, stopAndPrevent as x, hUniqueSlot as y, prevent as z };
+export { addFocusFn as $, nextTick as A, addEvt as B, onBeforeUnmount as C, cleanEvt as D, listenOpts as E, Fragment as F, portalProxyList as G, client as H, getScrollbarWidth as I, useModelToggleProps as J, useTransitionProps as K, useModelToggleEmits as L, useTick as M, useTimeout as N, useTransition as O, Platform as P, useModelToggle as Q, usePortal as R, addFocusout as S, Text as T, position as U, removeFocusout as V, removeEscapeKey as W, getScrollTarget as X, closePortalMenus as Y, Transition as Z, addEscapeKey as _, onUnmounted as a, childHasFocus as a0, isRuntimeSsrPreHydration as a1, noop$2 as a2, emptyRenderFn as a3, layoutKey as a4, createDirective as a5, leftClick as a6, preventDraggable as a7, stop as a8, useHistory as a9, createBaseVNode as aA, QCardActions as aB, QCard as aC, useSizeProps as aD, useSize as aE, createElementBlock as aF, renderList as aG, normalizeClass as aH, QRadio as aI, watchEffect as aJ, QDialog as aK, pushScopeId as aL, popScopeId as aM, withDirectives as aa, hDir as ab, usePreventScroll as ac, provide as ad, pageContainerKey as ae, getVerticalScrollPosition as af, getHorizontalScrollPosition as ag, reactive as ah, hMergeSlot as ai, resolveComponent as aj, openBlock as ak, createBlock as al, withCtx as am, QBtn as an, createTextVNode as ao, toDisplayString as ap, QIcon as aq, QSeparator as ar, unref as as, createCommentVNode as at, getPortalProxy as au, closePortals as av, QSpinner as aw, vmIsDestroyed as ax, _export_sfc as ay, QCardSection as az, boot as b, computed as c, defineComponent as d, effectScope as e, onBeforeMount as f, getCurrentInstance as g, h, inject as i, isRef as j, createVNode as k, defineStore as l, createComponent as m, hSlot as n, onMounted as o, useRouterLinkProps as p, useDark as q, ref as r, shallowRef as s, useRouterLink as t, useDarkProps as u, isKeyCode as v, watch as w, stopAndPrevent as x, hUniqueSlot as y, prevent as z };

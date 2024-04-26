@@ -1,4 +1,4 @@
-import { ay as _export_sfc, d as defineComponent, ak as openBlock, aG as createElementBlock, aA as createBaseVNode, ap as toDisplayString, k as createVNode, an as QBtn } from "./index.38afc488.js";
+import { ay as _export_sfc, d as defineComponent, ak as openBlock, aF as createElementBlock, aA as createBaseVNode, ap as toDisplayString, k as createVNode, an as QBtn } from "./index.6fa9569b.js";
 const _sfc_main = defineComponent({
   name: "ErrorNotFound"
 });
